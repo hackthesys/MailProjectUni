@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane id="anchorPane-id-right" layoutX="292.0" layoutY="-1.0" prefHeight="400.0" prefWidth="308.0" stylesheets="@../../../CSS/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../../Images/UIX/mailbox111.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane id="ancherPane-id-left" layoutY="-1.0" prefHeight="400.0" prefWidth="287.0" stylesheets="@../../../CSS/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="400.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="login_bt" layoutX="45.0" layoutY="312.0" mnemonicParsing="false" onAction="#login" stylesheets="@../../../CSS/Button.css" text="Login" textAlignment="CENTER">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></Button>
+            <RadioButton id="saveCredentials" fx:id="saveCredentials_bt" layoutX="115.0" layoutY="317.0" mnemonicParsing="false" onAction="#saveCredentials" stylesheets="@../../../CSS/RadioButton.css" text="Save Credentials" />
+            <TextField id="IMS_Port" fx:id="IMS_Port_text" layoutX="252.0" layoutY="234.0" onAction="#IMS_Port" prefHeight="26.0" prefWidth="48.0" promptText="Port" stylesheets="@../../../CSS/TextField.css" />
+            <TextField id="OMS_Port" fx:id="OMS_Port_text" layoutX="252.0" layoutY="267.0" onAction="#OMS_Port" prefHeight="26.0" prefWidth="48.0" promptText="Port" stylesheets="@../../../CSS/TextField.css" />
+            <ImageView fitHeight="107.0" fitWidth="120.0" layoutX="13.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="13.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../../Images/UIX/MailLogo.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="userID" layoutX="40.0" layoutY="132.0" prefHeight="24.0" prefWidth="209.0" promptText="USER ID" stylesheets="@../../../CSS/TextField.css" />
+            <TextField fx:id="email_text" layoutX="40.0" layoutY="165.0" onAction="#email" prefHeight="24.0" prefWidth="209.0" promptText="Email" stylesheets="@../../../CSS/TextField.css" />
+            <PasswordField id="PASS" fx:id="PASS_text" layoutX="40.0" layoutY="200.0" onAction="#PASS" prefHeight="26.0" prefWidth="209.0" promptText="PASS" stylesheets="@../../../CSS/TextField.css" />
+            <TextField fx:id="fullname" layoutX="40.0" layoutY="104.0" prefHeight="24.0" prefWidth="209.0" promptText="Name" stylesheets="@../../../CSS/TextField.css" />
+         </children>
+      </AnchorPane>
+      <TextField id="IMS" fx:id="IMS_text" layoutX="40.0" layoutY="233.0" onAction="#IMS" prefHeight="0.0" prefWidth="209.0" promptText="Incoming Mail Server" stylesheets="@../../../CSS/TextField.css" />
+      <TextField id="OMS" fx:id="OMS_text" layoutX="40.0" layoutY="267.0" onAction="#OMS" prefHeight="0.0" prefWidth="209.0" promptText="Outgoing Mail Server " stylesheets="@../../../CSS/TextField.css" />
+   </children>
+</AnchorPane>

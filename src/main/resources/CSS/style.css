@@ -1,0 +1,42 @@
+#ancherPane-id-left {
+    -fx-background-color: #bc9ce5;
+}
+
+#ancherPane-id-mid {
+    -fx-background-color: #bc9ce5;
+}
+
+
+#anchorPane-id-right {
+    -fx-background-color: #8BE891FF;
+}
+
+#anchorPane-id-middle {
+    -fx-background-color: rgb(60,166,208);
+}
+
+#email-anchorPane-id-left {
+    -fx-background-color: #bc9ce5;
+}
+
+#email-anchorPane-id-right {
+    -fx-background-color: #bc9ce5;
+}
+
+#email-anchorPane-id-middle {
+    -fx-background-color: #fefae0;
+}
+
+#email-anchorPane-id-search {
+    -fx-background-color: #283618;
+}
+
+#searchBar{
+    -fx-background-color: #fefae0;
+    -fx-text-fill: bc6c25;
+
+}
+
+#listview{
+    -fx-background-color: white;
+}

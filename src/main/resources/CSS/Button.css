@@ -1,0 +1,11 @@
+
+.button:hover {
+
+    -fx-font: 14px "Serif";
+    -fx-padding: 5;
+    -fx-border-radius: 8;
+    -fx-border-color: irebrick;
+    -fx-background-color: slateblue;
+    -fx-text-fill: white;
+
+}
